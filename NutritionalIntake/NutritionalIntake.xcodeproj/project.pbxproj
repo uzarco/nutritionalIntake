@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839554F8164B098300666E02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839554F7164B098300666E02 /* UIKit.framework */; };
+		839554FA164B098300666E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839554F9164B098300666E02 /* Foundation.framework */; };
+		839554FC164B098300666E02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839554FB164B098300666E02 /* CoreGraphics.framework */; };
+		83955502164B098300666E02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83955500164B098300666E02 /* InfoPlist.strings */; };
+		83955504164B098300666E02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83955503164B098300666E02 /* main.m */; };
+		83955508164B098300666E02 /* intakeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83955507164B098300666E02 /* intakeAppDelegate.m */; };
+		8395550B164B098300666E02 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83955509164B098300666E02 /* MainStoryboard.storyboard */; };
+		8395550E164B098300666E02 /* intakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8395550D164B098300666E02 /* intakeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		839554F3164B098300666E02 /* NutritionalIntake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionalIntake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839554F7164B098300666E02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		839554F9164B098300666E02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		839554FB164B098300666E02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		839554FF164B098300666E02 /* NutritionalIntake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NutritionalIntake-Info.plist"; sourceTree = "<group>"; };
+		83955501164B098300666E02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83955503164B098300666E02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83955505164B098300666E02 /* NutritionalIntake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NutritionalIntake-Prefix.pch"; sourceTree = "<group>"; };
+		83955506164B098300666E02 /* intakeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = intakeAppDelegate.h; sourceTree = "<group>"; };
+		83955507164B098300666E02 /* intakeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = intakeAppDelegate.m; sourceTree = "<group>"; };
+		8395550A164B098300666E02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8395550C164B098300666E02 /* intakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = intakeViewController.h; sourceTree = "<group>"; };
+		8395550D164B098300666E02 /* intakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = intakeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839554F0164B098300666E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839554F8164B098300666E02 /* UIKit.framework in Frameworks */,
+				839554FA164B098300666E02 /* Foundation.framework in Frameworks */,
+				839554FC164B098300666E02 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839554E8164B098300666E02 = {
+			isa = PBXGroup;
+			children = (
+				839554FD164B098300666E02 /* NutritionalIntake */,
+				839554F6164B098300666E02 /* Frameworks */,
+				839554F4164B098300666E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839554F4164B098300666E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839554F3164B098300666E02 /* NutritionalIntake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839554F6164B098300666E02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839554F7164B098300666E02 /* UIKit.framework */,
+				839554F9164B098300666E02 /* Foundation.framework */,
+				839554FB164B098300666E02 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839554FD164B098300666E02 /* NutritionalIntake */ = {
+			isa = PBXGroup;
+			children = (
+				83955506164B098300666E02 /* intakeAppDelegate.h */,
+				83955507164B098300666E02 /* intakeAppDelegate.m */,
+				83955509164B098300666E02 /* MainStoryboard.storyboard */,
+				8395550C164B098300666E02 /* intakeViewController.h */,
+				8395550D164B098300666E02 /* intakeViewController.m */,
+				839554FE164B098300666E02 /* Supporting Files */,
+			);
+			path = NutritionalIntake;
+			sourceTree = "<group>";
+		};
+		839554FE164B098300666E02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839554FF164B098300666E02 /* NutritionalIntake-Info.plist */,
+				83955500164B098300666E02 /* InfoPlist.strings */,
+				83955503164B098300666E02 /* main.m */,
+				83955505164B098300666E02 /* NutritionalIntake-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839554F2164B098300666E02 /* NutritionalIntake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83955511164B098300666E02 /* Build configuration list for PBXNativeTarget "NutritionalIntake" */;
+			buildPhases = (
+				839554EF164B098300666E02 /* Sources */,
+				839554F0164B098300666E02 /* Frameworks */,
+				839554F1164B098300666E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutritionalIntake;
+			productName = NutritionalIntake;
+			productReference = 839554F3164B098300666E02 /* NutritionalIntake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839554EA164B098300666E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = intake;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = uzarco;
+			};
+			buildConfigurationList = 839554ED164B098300666E02 /* Build configuration list for PBXProject "NutritionalIntake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 839554E8164B098300666E02;
+			productRefGroup = 839554F4164B098300666E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839554F2164B098300666E02 /* NutritionalIntake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839554F1164B098300666E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83955502164B098300666E02 /* InfoPlist.strings in Resources */,
+				8395550B164B098300666E02 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839554EF164B098300666E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83955504164B098300666E02 /* main.m in Sources */,
+				83955508164B098300666E02 /* intakeAppDelegate.m in Sources */,
+				8395550E164B098300666E02 /* intakeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83955500164B098300666E02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83955501164B098300666E02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83955509164B098300666E02 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8395550A164B098300666E02 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8395550F164B098300666E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83955510164B098300666E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83955512164B098300666E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NutritionalIntake/NutritionalIntake-Prefix.pch";
+				INFOPLIST_FILE = "NutritionalIntake/NutritionalIntake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83955513164B098300666E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NutritionalIntake/NutritionalIntake-Prefix.pch";
+				INFOPLIST_FILE = "NutritionalIntake/NutritionalIntake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839554ED164B098300666E02 /* Build configuration list for PBXProject "NutritionalIntake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8395550F164B098300666E02 /* Debug */,
+				83955510164B098300666E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83955511164B098300666E02 /* Build configuration list for PBXNativeTarget "NutritionalIntake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83955512164B098300666E02 /* Debug */,
+				83955513164B098300666E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839554EA164B098300666E02 /* Project object */;
+}
