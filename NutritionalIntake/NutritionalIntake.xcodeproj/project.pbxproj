@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2379918D164C3C4400EC82F2 /* createAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2379918C164C3C4400EC82F2 /* createAccountViewController.m */; };
 		839554F8164B098300666E02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839554F7164B098300666E02 /* UIKit.framework */; };
 		839554FA164B098300666E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839554F9164B098300666E02 /* Foundation.framework */; };
 		839554FC164B098300666E02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839554FB164B098300666E02 /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2379918B164C3C4400EC82F2 /* createAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = createAccountViewController.h; path = ../createAccountViewController.h; sourceTree = "<group>"; };
+		2379918C164C3C4400EC82F2 /* createAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = createAccountViewController.m; path = ../createAccountViewController.m; sourceTree = "<group>"; };
 		839554F3164B098300666E02 /* NutritionalIntake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionalIntake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839554F7164B098300666E02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		839554F9164B098300666E02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 				83955509164B098300666E02 /* MainStoryboard.storyboard */,
 				8395550C164B098300666E02 /* intakeViewController.h */,
 				8395550D164B098300666E02 /* intakeViewController.m */,
+				2379918B164C3C4400EC82F2 /* createAccountViewController.h */,
+				2379918C164C3C4400EC82F2 /* createAccountViewController.m */,
 				839554FE164B098300666E02 /* Supporting Files */,
 			);
 			path = NutritionalIntake;
@@ -165,6 +170,7 @@
 				83955504164B098300666E02 /* main.m in Sources */,
 				83955508164B098300666E02 /* intakeAppDelegate.m in Sources */,
 				8395550E164B098300666E02 /* intakeViewController.m in Sources */,
+				2379918D164C3C4400EC82F2 /* createAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +286,7 @@
 				83955513164B098300666E02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

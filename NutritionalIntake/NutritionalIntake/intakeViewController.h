@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "createAccountViewController.h"
 
 @interface intakeViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIButton *createAccount;
 
 @end

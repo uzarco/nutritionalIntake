@@ -13,6 +13,20 @@
 @end
 
 @implementation intakeViewController
+@synthesize createAccount = _createAccount;
+
+//create an account
+-(IBAction)createAccountPressed {
+    createAccountViewController *nextView = [self.storyboard
+                                      instantiateViewControllerWithIdentifier:@"createAccount"];
+    [self.navigationController pushViewController:nextView animated:YES];
+    
+    
+}
+
+
+
+
 
 - (void)viewDidLoad
 {
@@ -22,6 +36,7 @@
 
 - (void)viewDidUnload
 {
+    [self setCreateAccount:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -30,5 +45,6 @@
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
 
 @end
